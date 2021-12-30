@@ -1,0 +1,154 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card1{
+    top: 50px;
+    border:1.5px solid red;
+    height:55vh;
+    width:26%;
+    position:relative;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px grey;
+    margin:auto;
+}
+.div1{
+    position: absolute;
+    top:10px;
+    right:0;
+    font-size: 25px;
+    width: 85%;
+    border-bottom: 1px solid black;
+    text-align: left;
+    height: 20%;
+    color:darkred;
+    
+}
+.div2{
+    width: 90%;
+    height: 20%;
+    font-size: 25px;
+    color: red;
+    text-align: right;
+    position: absolute;
+    top:30%;
+    font-weight: bold;
+    text-decoration: line-through red;
+    right:110px;
+}
+.div3{
+    width:90%;
+    height:10%;
+    position: absolute;
+    top:50%;
+    text-align:right;
+    font-size:24px;
+    right:130px;
+}
+#check{
+    width:20px;
+    height:20px;
+    margin-left: 10px;
+}
+.cards-container{
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+}
+.heading1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+}
+.heading2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+.text{
+    display: inline;
+    font-size: 1.5rem;
+    opacity: 0.3;
+    padding-bottom: 40px;
+}
+.not-sure{
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
+}
+.pop-up{
+    left: 37%;
+    top: 30%;
+    position:absolute;
+    height:26vh;
+    width:27%;
+    border:1.5px solid red;
+    border-radius: 10px;
+    color: red;
+    font-size: 15px;
+    text-align: center;
+    box-shadow: 3px 3px 10px grey;
+    background-color: white;
+    padding: 20px;
+}
+.add-new{
+    opacity: 0.7;
+    font-size: 17px;
+}
+.popup-bar{
+    margin-top: 10px;
+    border-radius: 4px;
+    width: 85%;
+    height:18%;
+    border: 1.5px solid red;
+    box-shadow: 1px 1px 3px grey;
+}
+.popup-button{
+    position: absolute;
+    top: 140px;
+    right: 180px;
+    color:seashell;
+    background-color: red;
+    width: 50px;
+    height: 30px;
+    border-color: red;
+    border-radius: 10px;
+
+}
+@media(max-width:600px){
+    .heading{
+        display:inline;
+    }
+    .heading1{
+        left:30px;
+    }
+    .heading2{
+        left: 20px;
+        top: 40px;
+        position: absolute;
+        display: inline;
+    }
+    .text{
+        display: none;
+    }
+    .card1{
+        width:70%;
+    }
+    .div2{
+        right:30px;
+    }
+    .div3{
+        right:60px;
+    }
+    #circle{
+        position: absolute;
+        right:80px;
+    }
+    .pop-up{
+        top:250px;
+        left:30px;
+        height:22vh;
+        width:70%;
+    }
+    .popup-button{
+        left:120px;
+    }
+}
